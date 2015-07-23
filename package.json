@@ -1,6 +1,6 @@
 {
   "name": "babel-fs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Implement nodejs fs module with babel on promise style.",
   "main": "dist/babel-fs.js",
   "author": "YanagiEiichi",
