@@ -2,11 +2,11 @@
   "name": "babel-fs",
   "version": "1.0.0",
   "description": "Implement nodejs fs module with babel on promise style.",
-  "main": "babel-fs.js",
+  "main": "dist/babel-fs.js",
   "author": "YanagiEiichi",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "./node_modules/babel/bin/babel.js src -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/YanagiEiichi/babel-fs/issues"
   },
-  "homepage": "https://github.com/YanagiEiichi/babel-fs#readme"
+  "homepage": "https://github.com/YanagiEiichi/babel-fs#readme",
+  "devDependencies": {
+    "babel": "^5.8.3"
+  }
 }
