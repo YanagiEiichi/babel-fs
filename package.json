@@ -23,7 +23,7 @@
     "url": "https://github.com/YanagiEiichi/babel-fs/issues"
   },
   "homepage": "https://github.com/YanagiEiichi/babel-fs#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel": "^5.8.3"
   }
 }
