@@ -6,7 +6,7 @@
   "author": "YanagiEiichi",
   "license": "MIT",
   "scripts": {
-    "postinstall": "./node_modules/babel/bin/babel.js src -d dist"
+    "install": "babel src -d dist"
   },
   "repository": {
     "type": "git",
