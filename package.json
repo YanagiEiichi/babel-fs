@@ -6,7 +6,7 @@
   "author": "YanagiEiichi",
   "license": "MIT",
   "scripts": {
-    "install": "babel src -d dist"
+    "prepublish": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "url": "https://github.com/YanagiEiichi/babel-fs/issues"
   },
   "homepage": "https://github.com/YanagiEiichi/babel-fs#readme",
-  "dependencies": {
+  "devDependencies": {
     "babel": "^5.8.3"
   }
 }
